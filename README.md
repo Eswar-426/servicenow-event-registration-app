@@ -50,8 +50,7 @@ Admins can manage events, monitor registrations, and analyze feedback through re
 ## 🧾 Demo Video
 
 🎥 Watch the full live demo of this application here:  
-*(Add your YouTube or Google Drive demo link once uploaded)*
-
+https://drive.google.com/file/d/1OwbuvaB684DdwbyblkmvzfYEbcm7a9Tc/view?usp=drive_link
 ---
 
 ## 🧰 Installation Guide
@@ -101,7 +100,7 @@ MIT License © 2025 [Eswar Ram Kumar Kanchi](https://www.linkedin.com/in/eswar-r
 ✅ Built entirely on the **ServiceNow Platform**  
 ✅ Demonstrates **App Engine Studio, Flow Designer, Catalog, and Notification automation**  
 ✅ Designed with **role-based dashboards** and **modular tables**  
-✅ Ideal for demonstrating **ServiceNow CAD & CSA** exam-level skills
+✅ Ideal for demonstrating **ServiceNow CAD & CSA**  level skills
 
 ---
 
