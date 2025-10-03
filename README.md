@@ -1,4 +1,3 @@
-# servicenow-event-registration-app
 A custom Event Registration application built on ServiceNow App Engine Studio and Flow Designer with automated approvals and notifications.
 # 🎫 ServiceNow Event Registration Application
 
@@ -6,7 +5,9 @@ A custom **Event Registration Application** built on **ServiceNow App Engine Stu
 This app automates the process of event creation, attendee registration, approvals, and feedback collection — all within the ServiceNow platform.
 
 ---
+> 📍 Developer: [Eswar Ram Kumar Kanchi](https://www.linkedin.com/in/eswar-ram-kumar-kanchi)
 
+---
 ## 🚀 Overview
 
 The **Event Registration App** allows users to register for events and sessions directly from the Service Catalog.  
@@ -15,6 +16,13 @@ Admins can manage events, monitor registrations, and analyze feedback through re
 
 ---
 
+### 🎯 Key Objectives
+- Automate event registration & feedback workflows  
+- Enable role-based dashboard access  
+- Improve event analysis with live metrics  
+- Demonstrate practical ServiceNow development skills (CAD/CSA level)
+
+---
 ## ⚙️ Key Features
 
 - 📝 **Catalog Item:** Enables users to register for events and sessions  
@@ -36,15 +44,28 @@ Admins can manage events, monitor registrations, and analyze feedback through re
 
 ---
 
-## 🧠 Modules & Components Used
+## 🧩 Application Components
 
-- **App Engine Studio** – for application creation and table design  
-- **Flow Designer** – for automation of approval and notification flows  
-- **Service Catalog** – to create event registration catalog items  
-- **Notifications** – to send confirmation and approval emails  
-- **Reporting & Dashboards** – to visualize events and feedback metrics  
-- **ACLs & Roles** – for access control and secure visibility  
+| Component | Description |
+|------------|--------------|
+| **Event Table** | Stores event information such as name, session, and details (`x_1798866_event_ma_event`) |
+| **Registration Table** | Captures user registration data and approval status (`x_1798866_event_ma_registration`) |
+| **Feedback Table** | Stores event feedback from participants (`x_1798866_event_ma_feedback`) |
+| **Catalog Items** | Event Registration and Event Feedback |
+| **Flow Designer** | Automates approvals and email notifications |
+| **Notifications** | Sends confirmation and updates to users/admins |
+| **Dashboard** | Displays real-time event statistics and feedback insights |
 
+---
+
+## 🧠 Roles & Permissions
+
+| Role | Description |
+|------|--------------|
+| `event_admin` | Create/manage events, view feedback & dashboards |
+| `event_user` | Register for events, submit feedback |
+
+---
 ---
 
 ## 🧾 Demo Video
@@ -64,15 +85,6 @@ To import and test this app in your own ServiceNow instance:
 4. Assign roles (`event_user`, `event_admin`) to your test users.  
 5. Access the Catalog Item under the Service Catalog to test event registration flow.
 
----
-
-## 🧑‍💻 Developer Information
-
-**👤 Eswar Ram Kumar Kanchi**  
-🎓 Engineering Student | ServiceNow Developer | CSA Certified  
-
-🔗 [LinkedIn Profile](https://www.linkedin.com/in/eswar-ram-kumar-kanchi)  
-📧 eswarramkumar68@gmail.com 
 
 ---
 
@@ -86,24 +98,15 @@ To import and test this app in your own ServiceNow instance:
 | Feedback Table | ![Feedback](screenshots/feedback.png) |
 
 
+## 📊 Application Workflow
 
----
-
-## 📜 License
-
-MIT License © 2025 [Eswar Ram Kumar Kanchi](https://www.linkedin.com/in/eswar-ram-kumar-kanchi)
-
----
-
-## 🌟 Highlights
-
-✅ Built entirely on the **ServiceNow Platform**  
-✅ Demonstrates **App Engine Studio, Flow Designer, Catalog, and Notification automation**  
-✅ Designed with **role-based dashboards** and **modular tables**  
-✅ Ideal for demonstrating **ServiceNow CAD & CSA**  level skills
-
----
-
-
-
-
+```text
+[User Submits Event Registration Catalog Item]
+        ↓
+[Flow Designer Trigger]
+        ↓
+[Approval Request → Admin]
+        ↓
+[Email Notifications Sent]
+        ↓
+[Dashboard Updated Automatically]
