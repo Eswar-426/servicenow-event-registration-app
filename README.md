@@ -52,3 +52,59 @@ Admins can manage events, monitor registrations, and analyze feedback through re
 🎥 Watch the full live demo of this application here:  
 *(Add your YouTube or Google Drive demo link once uploaded)*
 
+---
+
+## 🧰 Installation Guide
+
+To import and test this app in your own ServiceNow instance:
+
+1. Download the update set XML file from the `/update_set` folder.  
+2. In your instance, navigate to:  
+   **System Update Sets → Retrieved Update Sets → Import Update Set from XML**  
+3. Preview and Commit the update set.  
+4. Assign roles (`event_user`, `event_admin`) to your test users.  
+5. Access the Catalog Item under the Service Catalog to test event registration flow.
+
+---
+
+## 🧑‍💻 Developer Information
+
+**👤 Eswar Ram Kumar Kanchi**  
+🎓 Engineering Student | ServiceNow Developer | CSA Certified  
+
+🔗 [LinkedIn Profile](https://www.linkedin.com/in/eswar-ram-kumar-kanchi)  
+📧 eswarramkumar@example.com *(replace with your real email if you want to make contact public)*
+
+---
+
+## 📸 Screenshots
+
+| Section | Screenshot |
+|----------|-------------|
+| Catalog Item | ![Catalog Item](screenshots/catalog_item.png) |
+| Flow Designer Flow | ![Flow Designer](screenshots/flow_designer.png) |
+| Dashboard | ![Dashboard](screenshots/dashboard.png) |
+| Feedback Table | ![Feedback](screenshots/feedback.png) |
+
+*(Add your actual screenshots into the `/screenshots/` folder and update the image names above.)*
+
+---
+
+## 📜 License
+
+MIT License © 2025 [Eswar Ram Kumar Kanchi](https://www.linkedin.com/in/eswar-ram-kumar-kanchi)
+
+---
+
+## 🌟 Highlights
+
+✅ Built entirely on the **ServiceNow Platform**  
+✅ Demonstrates **App Engine Studio, Flow Designer, Catalog, and Notification automation**  
+✅ Designed with **role-based dashboards** and **modular tables**  
+✅ Ideal for demonstrating **ServiceNow CAD & CSA** exam-level skills
+
+---
+
+> 💡 *This project demonstrates your ability to design, automate, and deploy a functional ServiceNow application suitable for enterprise event management scenarios.*
+
+
