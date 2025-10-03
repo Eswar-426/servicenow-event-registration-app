@@ -73,7 +73,7 @@ To import and test this app in your own ServiceNow instance:
 🎓 Engineering Student | ServiceNow Developer | CSA Certified  
 
 🔗 [LinkedIn Profile](https://www.linkedin.com/in/eswar-ram-kumar-kanchi)  
-📧 eswarramkumar@example.com *(replace with your real email if you want to make contact public)*
+📧 eswarramkumar68@gmail.com 
 
 ---
 
@@ -81,12 +81,12 @@ To import and test this app in your own ServiceNow instance:
 
 | Section | Screenshot |
 |----------|-------------|
-| Catalog Item | ![Catalog Item](screenshots/catalog_item.png) |
+| Catalog Items | ![Catalog Item](screenshots/catalog_item.png) |
 | Flow Designer Flow | ![Flow Designer](screenshots/flow_designer.png) |
 | Dashboard | ![Dashboard](screenshots/dashboard.png) |
 | Feedback Table | ![Feedback](screenshots/feedback.png) |
 
-*(Add your actual screenshots into the `/screenshots/` folder and update the image names above.)*
+
 
 ---
 
@@ -105,6 +105,6 @@ MIT License © 2025 [Eswar Ram Kumar Kanchi](https://www.linkedin.com/in/eswar-r
 
 ---
 
-> 💡 *This project demonstrates your ability to design, automate, and deploy a functional ServiceNow application suitable for enterprise event management scenarios.*
+
 
 
